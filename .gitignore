@@ -4,3 +4,4 @@ __pycache__/
 ./*/*.db
 
 
+db_learn/users.db
