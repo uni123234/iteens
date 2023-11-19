@@ -1,6 +1,6 @@
 .env
-handler/kb_learns/__pycache__/keyboards.cpython-311.pyc
-handler/__pycache__/users_command.cpython-311.pyc
-data/__pycache__/keyboards.cpython-311.pyc
-
+handler/kb_learns/__pycache__
+handler/__pycache__
+data/__pycache__
+db_learn/__pycache__
 

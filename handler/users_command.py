@@ -47,17 +47,12 @@ async def learn_words_and_synatx_word(msg: types.Message):
 
 
 @dp.message(Command("howdoisay"))
-async def translaters(msg: types.Message, state: FSMContext) -> None:
-    if len(msg.get_args()) == 0:
-        await msg.reply("Please provide text to translate. Usage: /howdoisay <text>")
-        return
+async def translaters(msg: types.Message):
+    cmd: Command = msg.command_handlers[0]
+    args = cmd.args
+    if len(args) == 0:
+        await msg.reply('Enter a valid text!')
 
-    text_to_translate = " ".join(msg.get_args())
-
-    translated_text = translator.translate(text_to_translate, dest='en').text
-
-    response_message = f'Translation: {translated_text}'
-    await msg.reply(response_message)
 
 
 @dp.message(Command("info"))
