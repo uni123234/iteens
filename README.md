@@ -29,3 +29,6 @@ Check your progress in the English language learning journey.
 ### /howdoisay
 
 Translate text into English.
+
+###
+autor; Andrii
