@@ -1,8 +1,9 @@
-import logging,asyncio,sys
+import logging, asyncio, sys
 
 from aiogram.filters.command import Command
 
 from load import dp, bot, bot_db, db_users
+import handler
 
 
 @dp.startup()

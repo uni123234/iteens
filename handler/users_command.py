@@ -7,7 +7,7 @@ from googletrans import Translator
 
 from load import dp
 from db_learn.db_state import FSMRegister
-from .kb_learns.keyboards import kb_learn, builder
+from .kb_learns.keyboards import reply_markup, builder
 
 translator = Translator()
 
@@ -42,7 +42,8 @@ async def start_lng_lvl(msg: types.Message, state: FSMContext):
 
 @dp.message(Command("learn"))
 async def learn_words_and_synatx_word(msg: types.Message):
-    await msg.answer("Some text here", reply_markup=builder.as_markup())
+    text="Виберіть що хочете вивчити"
+    await msg.answer(text, reply_markup=reply_markup)
 
 
 @dp.message(Command("howdoisay"))
@@ -61,10 +62,11 @@ async def translaters(msg: types.Message, state: FSMContext) -> None:
 
 @dp.message(Command("info"))
 async def info_command(msg: types.Message):
-    await msg.answer(""" - Що може цей бот?
- - Визначити твій рівень англійської
- - Допомогти прокачати свої знання
- - Давати рекомендації щодо вивчення нових слів та правил
- - Давати завдання
- - Допомогти тобі провести час із користю """)
+    text=""" - Що може цей бот?🌆
+ - Визначити твій рівень англійської🌇
+ - Допомогти прокачати свої знання🎆
+ - Давати рекомендації щодо вивчення нових слів та правил🎇
+ - Давати завдання🌠
+ - Допомогти тобі провести час із користю🛠 """
+    await msg.answer(text)
 
