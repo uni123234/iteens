@@ -36,13 +36,19 @@ class DbUsers(DefaultInterface):
 
         return self.conn.commit()
 
-    def get_progress(self, telegram_user_id: int):
+    def get_progress(self, telegram_id: int):
         self.connect(load.bot_db)
         self.cursor.execute(f"""
             SELECT progress
             FROM users
             WHERE telegram_id = ?
-        """, (telegram_user_id, ))
+        """, (telegram_id, ))
+
+        return self.cursor.fetchone()
+    
+    def check(self, telegram_id: int):
+        self.connect(load.bot_db)
+        self.cursor.execute('SELECT telegram_id FROM users WHERE telegram_id= ?', (telegram_id,))
 
         return self.cursor.fetchone()
     

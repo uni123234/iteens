@@ -9,3 +9,6 @@ class FSMRegister(StatesGroup):
 
 class FSMTranslate(StatesGroup):
     text = State()
+
+class FSMTest(StatesGroup):
+    translation = State()
