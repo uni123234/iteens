@@ -19,8 +19,7 @@ with open(file_path, 'r', encoding='utf-8') as file:
 
 keyboard = [ 
     [
-        types.InlineKeyboardButton(text="Отримати нове слово", callback_data="learn_new_word"),     
-        types.InlineKeyboardButton(text="Отримати словосполучення", callback_data='learn_phrase')
+        types.InlineKeyboardButton(text="📜Отримати нове слово📜", callback_data="learn_new_word"),     
     ]
 ]
 reply_markup = types.InlineKeyboardMarkup(inline_keyboard=keyboard)

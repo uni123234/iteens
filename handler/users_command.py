@@ -25,15 +25,15 @@ async def start(msg: types.Message, state: FSMContext):
     user = DbUsers()
     if user.check(msg.from_user.id) is None:
         await state.set_state(FSMRegister.first_name)
-        await msg.answer("Для початку вам потрібно зареєструватися")
-        await msg.answer("Введіть своє ім'я")
+        await msg.answer("📥Для початку вам потрібно зареєструватися📥")
+        await msg.answer("Введіть своє ім'я🖊️")
 
 
 @dp.message(FSMRegister.first_name)
 async def start_name(msg: types.Message, state: FSMContext):
     await state.update_data(first_name=msg.text)
     await state.set_state(FSMRegister.last_name)
-    await msg.answer("Введіть своє прізвище")
+    await msg.answer("📥Введіть своє прізвище📥")
 
 
 @dp.message(FSMRegister.last_name)
@@ -41,7 +41,7 @@ async def start_last_name(msg: types.Message, state: FSMContext):
     # Monkey D. Luffy
     await state.update_data(last_name=msg.text)
     await state.set_state(FSMRegister.lng_lvl)
-    await msg.answer("Введіть ваш рівень англійської")
+    await msg.answer("📥Введіть ваш рівень англійської📥")
 
 
 @dp.message(FSMRegister.lng_lvl)
@@ -59,7 +59,7 @@ async def start_lng_lvl(msg: types.Message, state: FSMContext,):
         progress=0
     )
 
-    await msg.answer("Ви успішно зареєструвалися!")
+    await msg.answer("📜Ви успішно зареєструвалися!📜")
     await state.clear()
 
 
@@ -70,7 +70,7 @@ async def tests_eng_lvl(msg: types.Message, state: FSMContext):
     translation = random_word["translation"]
     await state.set_state(FSMTest.translation)
     await state.update_data(translation=word)
-    await msg.answer("""Тестуваня буде в виді бот вам буде відправляти слова на укр а ви маєте відправити на Англ""")
+    await msg.answer("📜Тестуваня буде в виді \nбот вам буде відправляти слова на укр\n а ви маєте відправити на Англ📜")
     await msg.answer(translation)
     
 
@@ -80,20 +80,20 @@ async def transt_random(msg: types.Message, state: FSMContext):
     tests = await state.get_data()
     rty = tests.get('translation')
     if rty == msg.text.lower():
-        await msg.answer('у вас +1 бал до прогресу все правильно')
+        await msg.answer('у вас +1 бал до прогресу🎓 все правильно🎓')
         db = DbUsers()
         say = db.get_progress(msg.from_user.id)
         suma = int(say[0])+1
         db.update_user(msg.from_user.id, suma)
     else:
-        await msg.answer("Ви відповіли не правильно")
-        await msg.answer(f"Правильна відповідь {rty}")
+        await msg.answer("❌Ви відповіли не правильно❌")
+        await msg.answer(f"Правильна відповідь {rty} 📚")
         await state.clear()
 
 
 @dp.message(Command("learn"))
 async def learn_words_and_synatx_word(msg: types.Message):
-    text="Виберіть що хочете вивчити"
+    text="📚Виберіть що хочете вивчити📚"
     db = DbUsers()
     say = db.get_progress(msg.from_user.id)
     suma = int(say[0])+1
@@ -122,7 +122,7 @@ async def randoms_word(call_back: types.CallbackQuery ):
 @dp.message(Command("howdoisay"))
 async def translaters(msg: types.Message, state: FSMContext) -> None:
     await state.set_state(FSMTranslate.text)
-    await msg.answer("Введіть текст, який хочете переслакти англійською")
+    await msg.answer("Введіть текст, який хочете переслакти англійською📲 ")
 
 
 @dp.message(FSMTranslate.text)
