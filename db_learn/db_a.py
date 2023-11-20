@@ -16,3 +16,4 @@ class DefaultInterface:
     def connect(self, db_base: BotDb):
         self.conn = db_base.conn
         self.cursor = db_base.cursor
+        

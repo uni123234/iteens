@@ -5,3 +5,7 @@ class FSMRegister(StatesGroup):
     first_name = State()
     last_name = State()
     lng_lvl = State()
+
+
+class FSMTranslate(StatesGroup):
+    text = State()

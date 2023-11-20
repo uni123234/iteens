@@ -1,14 +1,224 @@
 {
-    "words": [
+  "words": [
       {
-        "word": "apple",
-        "translation": "яблуко",
-        "phrase": "I like to eat an apple every day."
+          "word": "apple",
+          "translation": "яблуко",
+          "phrase": "I like to eat an apple every day."
       },
       {
-        "word": "book",
-        "translation": "книга",
-        "phrase": "I enjoy reading a good book."
+          "word": "book",
+          "translation": "книга",
+          "phrase": "I enjoy reading a good book."
+      },
+      {
+          "word": "computer",
+          "translation": "комп'ютер",
+          "phrase": "I use a computer for work."
+      },
+      {
+          "word": "sun",
+          "translation": "сонце",
+          "phrase": "The sun is shining brightly."
+      },
+      {
+          "word": "friend",
+          "translation": "друг",
+          "phrase": "I cherish my friendship with you."
+      },
+      {
+          "word": "music",
+          "translation": "музика",
+          "phrase": "I love listening to music."
+      },
+      {
+          "word": "dog",
+          "translation": "собака",
+          "phrase": "I have a pet dog named Max."
+      },
+      {
+          "word": "cat",
+          "translation": "кіт",
+          "phrase": "The cat is sitting on the windowsill."
+      },
+      {
+          "word": "happy",
+          "translation": "щасливий",
+          "phrase": "I feel happy when I'm with my family."
+      },
+      {
+          "word": "school",
+          "translation": "школа",
+          "phrase": "I go to school every weekday."
+      },
+      {
+          "word": "garden",
+          "translation": "сад",
+          "phrase": "We planted flowers in the garden."
+      },
+      {
+          "word": "rain",
+          "translation": "дощ",
+          "phrase": "I love the sound of rain on the roof."
+      },
+      {
+          "word": "mountain",
+          "translation": "гора",
+          "phrase": "The mountain peak is covered in snow."
+      },
+      {
+          "word": "ocean",
+          "translation": "океан",
+          "phrase": "The ocean waves are mesmerizing."
+      },
+      {
+          "word": "travel",
+          "translation": "подорож",
+          "phrase": "I dream of traveling around the world."
+      },
+      {
+          "word": "language",
+          "translation": "мова",
+          "phrase": "Learning a new language is challenging."
+      },
+      {
+          "word": "dream",
+          "translation": "мрія",
+          "phrase": "I had a vivid dream last night."
+      },
+      {
+          "word": "adventure",
+          "translation": "пригода",
+          "phrase": "Life is an exciting adventure."
+      },
+      {
+          "word": "explore",
+          "translation": "досліджувати",
+          "phrase": "I want to explore new places."
+      },
+      {
+          "word": "fire",
+          "translation": "вогонь",
+          "phrase": "We gathered around the fire."
+      },
+      {
+          "word": "flower",
+          "translation": "квітка",
+          "phrase": "The garden is full of colorful flowers."
+      },
+      {
+          "word": "bicycle",
+          "translation": "велосипед",
+          "phrase": "I ride my bicycle to work."
+      },
+      {
+          "word": "chocolate",
+          "translation": "шоколад",
+          "phrase": "I treat myself to chocolate occasionally."
+      },
+      {
+          "word": "holiday",
+          "translation": "свято",
+          "phrase": "We celebrate holidays with family."
+      },
+      {
+          "word": "moon",
+          "translation": "місяць",
+          "phrase": "The moon is shining in the night sky."
+      },
+      {
+          "word": "star",
+          "translation": "зірка",
+          "phrase": "We wished upon a star."
+      },
+      {
+          "word": "friendship",
+          "translation": "дружба",
+          "phrase": "True friendship lasts a lifetime."
+      },
+      {
+          "word": "film",
+          "translation": "фільм",
+          "phrase": "I watched a great film yesterday."
+      },
+      {
+          "word": "dance",
+          "translation": "танець",
+          "phrase": "We danced all night at the party."
+      },
+      {
+          "word": "mountain",
+          "translation": "гора",
+          "phrase": "The mountain scenery is breathtaking."
+      },
+      {
+          "word": "fruit",
+          "translation": "фрукт",
+          "phrase": "I enjoy eating fresh fruit."
+      },
+      {
+          "word": "rainbow",
+          "translation": "веселий",
+          "phrase": "The rainbow appeared after the rain."
+      },
+      {
+          "word": "song",
+          "translation": "пісня",
+          "phrase": "She sang a beautiful song."
+      },
+      {
+          "word": "happiness",
+          "translation": "щастя",
+          "phrase": "Finding happiness in small moments."
+      },
+      {
+          "word": "summer",
+          "translation": "літо",
+          "phrase": "Summer is my favorite season."
+      },
+      {
+          "word": "bird",
+          "translation": "пташка",
+          "phrase": "The bird is singing in the tree."
+      },
+      {
+          "word": "color",
+          "translation": "колір",
+          "phrase": "I love the vibrant color of flowers."
+      },
+      {
+          "word": "magic",
+          "translation": "магія",
+          "phrase": "The magician performed a magic trick."
+      },
+      {
+          "word": "beach",
+          "translation": "пляж",
+          "phrase": "We spent a day at the beach."
+      },
+      {
+          "word": "smile",
+          "translation": "усмішка",
+          "phrase": "A smile can brighten someone's day."
+      },
+      {
+          "word": "time",
+          "translation": "час",
+          "phrase": "Time is a valuable resource."
+      },
+      {
+          "word": "game",
+          "translation": "гра",
+          "phrase": "We played a fun game together."
+      },
+      {
+          "word": "love",
+          "translation": "любов",
+          "phrase": "Love is the most powerful emotion."
+      },
+      {
+          "word": "city",
+          "translation": "місто",
+          "phrase": "The city skyline is impressive."
       }
-    ]
-  }
+  ]
+}
