@@ -88,7 +88,7 @@ async def transt_random(msg: types.Message, state: FSMContext):
     else:
         await msg.answer("Ви відповіли не правильно")
         await msg.answer(f"Правильна відповідь {rty}")
-    state.clear()
+        await state.clear()
 
 
 @dp.message(Command("learn"))
