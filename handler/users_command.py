@@ -123,7 +123,6 @@ async def transt_random(msg: types.Message, state: FSMContext):
         await state.clear()
 
 
-
 @dp.message(Command("learn"))
 async def learn_words_and_synatx_word(msg: types.Message):
     text="📚Виберіть що хочете вивчити📚"
