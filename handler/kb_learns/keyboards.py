@@ -1,8 +1,6 @@
 import random, json
 
 from aiogram import types
-from aiogram.fsm.context import FSMContext
-from aiogram.filters.callback_data import CallbackData
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 builder = InlineKeyboardBuilder()
@@ -13,7 +11,7 @@ for index in range(1, 3):
 
 keyboard = [ 
     [
-        types.InlineKeyboardButton(text="Отримати нове слово", callback_data="learn_new_word")
+        types.InlineKeyboardButton(text="📜Отримати нове слово📜", callback_data="learn_new_word")
     ]
 ] 
 reply_markup = types.InlineKeyboardMarkup(inline_keyboard=keyboard)
@@ -33,8 +31,9 @@ def get_random_word():
     translation = random_word["translation"]
     phrase = random_word["phrase"]
 
-    inline_btn =[[ types.InlineKeyboardButton(text="Отримати нове слово", callback_data="learn_new_word")]]
+    inline_btn =[[ types.InlineKeyboardButton(text="📜Отримати нове слово📜", callback_data="learn_new_word")]]
     
     inline_kb = types.InlineKeyboardMarkup(inline_keyboard=inline_btn)
     
     return [f"Слово: {word}\nПереклад: {translation}\nФраза: {phrase}", inline_kb]
+

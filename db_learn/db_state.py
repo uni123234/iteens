@@ -12,3 +12,4 @@ class FSMTranslate(StatesGroup):
 
 class FSMTest(StatesGroup):
     translation = State()
+    phrase = State()

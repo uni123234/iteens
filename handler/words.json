@@ -1,224 +1,238 @@
 {
-  "words": [
+    "words": [
       {
-          "word": "apple",
-          "translation": "яблуко",
-          "phrase": "I like to eat an apple every day."
+        "word": "sunny",
+        "translation": "сонячний",
+        "phrase": "A sunny day is perfect for a picnic in the park.",
+        "translation_phrase": "Сонячний день ідеальний для пікніка в парку."
       },
       {
-          "word": "book",
-          "translation": "книга",
-          "phrase": "I enjoy reading a good book."
+        "word": "hope",
+        "translation": "сподівання",
+        "phrase": "The first rays of dawn bring a sense of hope and renewal.",
+        "translation_phrase": "Перші промені світанку несуть відчуття надії та оновлення."
       },
       {
-          "word": "computer",
-          "translation": "комп'ютер",
-          "phrase": "I use a computer for work."
+        "word": "butterfly",
+        "translation": "метелик",
+        "phrase": "The colorful butterfly danced among the flowers in the garden.",
+        "translation_phrase": "Барвистий метелик танцював серед квітів у саду."
       },
       {
-          "word": "sun",
-          "translation": "сонце",
-          "phrase": "The sun is shining brightly."
+        "word": "joy",
+        "translation": "радість",
+        "phrase": "The laughter of children is a pure expression of unbridled joy.",
+        "translation_phrase": "Сміх дітей - це чистий вираз нестримної радості."
       },
       {
-          "word": "friend",
-          "translation": "друг",
-          "phrase": "I cherish my friendship with you."
+        "word": "moonlight",
+        "translation": "місячне світло",
+        "phrase": "A midnight stroll bathed in the soft glow of moonlight is magical.",
+        "translation_phrase": "Північна прогулянка в м'якому сяйві місячного світла - це чарівно."
       },
       {
-          "word": "music",
-          "translation": "музика",
-          "phrase": "I love listening to music."
+        "word": "painting",
+        "translation": "живопис",
+        "phrase": "The artist's painting captured the essence of a serene landscape.",
+        "translation_phrase": "Живопис художника уловлював сутність спокійного пейзажу."
       },
       {
-          "word": "dog",
-          "translation": "собака",
-          "phrase": "I have a pet dog named Max."
+        "word": "journey",
+        "translation": "подорож",
+        "phrase": "Embarking on a solo journey can lead to self-discovery.",
+        "translation_phrase": "Початок самотньої подорожі може призвести до відкриття себе."
       },
       {
-          "word": "cat",
-          "translation": "кіт",
-          "phrase": "The cat is sitting on the windowsill."
+        "word": "candle",
+        "translation": "свічка",
+        "phrase": "The flickering candle added a touch of warmth to the room.",
+        "translation_phrase": "Мерехтлива свічка додавала нотку тепла кімнаті."
       },
       {
-          "word": "happy",
-          "translation": "щасливий",
-          "phrase": "I feel happy when I'm with my family."
+        "word": "laughter",
+        "translation": "сміх",
+        "phrase": "A shared moment of laughter can bridge cultural differences.",
+        "translation_phrase": "Спільний момент сміху може перейти культурні різниці."
       },
       {
-          "word": "school",
-          "translation": "школа",
-          "phrase": "I go to school every weekday."
+        "word": "rainbow",
+        "translation": "веселка",
+        "phrase": "A rainbow appeared after the rain, bringing colors to the sky.",
+        "translation_phrase": "Після дощу на небі з'явилася веселка, принесла кольори."
       },
       {
-          "word": "garden",
-          "translation": "сад",
-          "phrase": "We planted flowers in the garden."
+        "word": "tree",
+        "translation": "дерево",
+        "phrase": "The ancient tree stood as a silent witness to centuries gone by.",
+        "translation_phrase": "Стародавнє дерево стояло як мовчазний свідок століть, що минули."
       },
       {
-          "word": "rain",
-          "translation": "дощ",
-          "phrase": "I love the sound of rain on the roof."
+        "word": "stars",
+        "translation": "зірки",
+        "phrase": "On a clear night, the stars create a celestial tapestry.",
+        "translation_phrase": "У ясну ніч зірки створюють небесний гобелен."
       },
       {
-          "word": "mountain",
-          "translation": "гора",
-          "phrase": "The mountain peak is covered in snow."
+        "word": "ocean",
+        "translation": "океан",
+        "phrase": "The rhythmic sound of the ocean waves is a lullaby to the soul.",
+        "translation_phrase": "Ритмічний звук хвиль океану - це колискова для душі."
       },
       {
-          "word": "ocean",
-          "translation": "океан",
-          "phrase": "The ocean waves are mesmerizing."
+        "word": "flower",
+        "translation": "квітка",
+        "phrase": "The delicate fragrance of a flower can evoke memories of spring.",
+        "translation_phrase": "Ніжний аромат квітки може викликати спогади про весну."
       },
       {
-          "word": "travel",
-          "translation": "подорож",
-          "phrase": "I dream of traveling around the world."
+        "word": "sunshine",
+        "translation": "сонце",
+        "phrase": "Basking in the warm sunshine is a simple joy of life.",
+        "translation_phrase": "Полювання на теплому сонці - це проста радість життя."
       },
       {
-          "word": "language",
-          "translation": "мова",
-          "phrase": "Learning a new language is challenging."
+        "word": "dance",
+        "translation": "танець",
+        "phrase": "Dancing under the stars is a celebration of freedom and joy.",
+        "translation_phrase": "Танцювати під зірками - це святкування свободи та радості."
       },
       {
-          "word": "dream",
-          "translation": "мрія",
-          "phrase": "I had a vivid dream last night."
+        "word": "cloud",
+        "translation": "хмара",
+        "phrase": "The fluffy clouds drifted lazily across the azure sky.",
+        "translation_phrase": "Пухнасті хмари ліниво пливли по блакитному небу."
       },
       {
-          "word": "adventure",
-          "translation": "пригода",
-          "phrase": "Life is an exciting adventure."
+        "word": "music",
+        "translation": "музика",
+        "phrase": "The soulful melody of the violin touched the hearts of the audience.",
+        "translation_phrase": "Душевна мелодія скрипки доторкнулася до сердець глядачів."
       },
       {
-          "word": "explore",
-          "translation": "досліджувати",
-          "phrase": "I want to explore new places."
+        "word": "silence",
+        "translation": "тиша",
+        "phrase": "In the serenity of silence, one can find inner peace.",
+        "translation_phrase": "У спокої тиші можна знайти внутрішній мир."
       },
       {
-          "word": "fire",
-          "translation": "вогонь",
-          "phrase": "We gathered around the fire."
+        "word": "smile",
+        "translation": "усмішка",
+        "phrase": "A genuine smile can brighten even the darkest of days.",
+        "translation_phrase": "Истинна усмішка може розгойдати навіть найтемніші дні."
       },
       {
-          "word": "flower",
-          "translation": "квітка",
-          "phrase": "The garden is full of colorful flowers."
+        "word": "mountain",
+        "translation": "гора",
+        "phrase": "The mountain range stood majestic against the morning sky.",
+        "translation_phrase": "Гірський хребет стояв велично проти ранкового неба."
       },
       {
-          "word": "bicycle",
-          "translation": "велосипед",
-          "phrase": "I ride my bicycle to work."
+        "word": "dream",
+        "translation": "мрія",
+        "phrase": "Chasing your dreams is a journey of self-discovery and growth.",
+        "translation_phrase": "Переслідування своїх мрій - це подорож до самопізнання та зростання."
       },
       {
-          "word": "chocolate",
-          "translation": "шоколад",
-          "phrase": "I treat myself to chocolate occasionally."
+        "word": "adventure",
+        "translation": "пригода",
+        "phrase": "Every book is an adventure waiting to be explored.",
+        "translation_phrase": "Кожна книга - це пригода, яка чекає на дослідження."
       },
       {
-          "word": "holiday",
-          "translation": "свято",
-          "phrase": "We celebrate holidays with family."
+        "word": "fire",
+        "translation": "вогонь",
+        "phrase": "Gathered around the fire, stories were shared under the starry sky.",
+        "translation_phrase": "Навколо вогню ділилися історіями під зірковим небом."
       },
       {
-          "word": "moon",
-          "translation": "місяць",
-          "phrase": "The moon is shining in the night sky."
+        "word": "river",
+        "translation": "ріка",
+        "phrase": "The gentle river meandered through the picturesque valley.",
+        "translation_phrase": "Ніжна річка брела через живописну долину."
       },
       {
-          "word": "star",
-          "translation": "зірка",
-          "phrase": "We wished upon a star."
+        "word": "book",
+        "translation": "книга",
+        "phrase": "The scent of old books invokes a sense of nostalgia and comfort.",
+        "translation_phrase": "Аромат старих книг викликає відчуття ностальгії і комфорту."
       },
       {
-          "word": "friendship",
-          "translation": "дружба",
-          "phrase": "True friendship lasts a lifetime."
+        "word": "cloud",
+        "translation": "хмара",
+        "phrase": "Dark clouds gathered before the storm, casting shadows below.",
+        "translation_phrase": "Темні хмари зібралися перед грозою, кидаючи тіні вниз."
       },
       {
-          "word": "film",
-          "translation": "фільм",
-          "phrase": "I watched a great film yesterday."
+        "word": "guitar",
+        "translation": "гітара",
+        "phrase": "Strumming the guitar by the campfire created a cozy atmosphere.",
+        "translation_phrase": "Грати на гітарі біля вогнища створювало затишну атмосферу."
       },
       {
-          "word": "dance",
-          "translation": "танець",
-          "phrase": "We danced all night at the party."
+        "word": "family",
+        "translation": "родина",
+        "phrase": "Family gatherings are a time for laughter, love, and connection.",
+        "translation_phrase": "Збори родини - це час сміху, любові та зв'язку."
       },
       {
-          "word": "mountain",
-          "translation": "гора",
-          "phrase": "The mountain scenery is breathtaking."
+        "word": "cloud",
+        "translation": "хмара",
+        "phrase": "Golden clouds painted the evening sky in warm hues.",
+        "translation_phrase": "Золотаві хмари розфарбовували вечірнє небо в теплі відтінки."
       },
       {
-          "word": "fruit",
-          "translation": "фрукт",
-          "phrase": "I enjoy eating fresh fruit."
+        "word": "garden",
+        "translation": "сад",
+        "phrase": "The garden bloomed with a riot of colors in the spring.",
+        "translation_phrase": "Сад розцвітає весняним калейдоскопом кольорів."
       },
       {
-          "word": "rainbow",
-          "translation": "веселий",
-          "phrase": "The rainbow appeared after the rain."
+        "word": "moonlight",
+        "translation": "місячне світло",
+        "phrase": "The garden was bathed in the soft glow of moonlight.",
+        "translation_phrase": "Сад обливався м'яким сяйвом місячного світла."
       },
       {
-          "word": "song",
-          "translation": "пісня",
-          "phrase": "She sang a beautiful song."
+        "word": "knowledge",
+        "translation": "знання",
+        "phrase": "Acquiring knowledge opens doors to new opportunities.",
+        "translation_phrase": "Отримання знань відкриває двері до нових можливостей."
       },
       {
-          "word": "happiness",
-          "translation": "щастя",
-          "phrase": "Finding happiness in small moments."
+        "word": "snow",
+        "translation": "сніг",
+        "phrase": "Children love playing in the snow, building snowmen.",
+        "translation_phrase": "Діти люблять грати в снігу, будувати сніговиків."
       },
       {
-          "word": "summer",
-          "translation": "літо",
-          "phrase": "Summer is my favorite season."
+        "word": "peace",
+        "translation": "мир",
+        "phrase": "Finding inner peace is a journey worth taking.",
+        "translation_phrase": "Знаходження внутрішнього миру - це подорож, вартує взятися за неї."
       },
       {
-          "word": "bird",
-          "translation": "пташка",
-          "phrase": "The bird is singing in the tree."
+        "word": "sunset",
+        "translation": "захід сонця",
+        "phrase": "Vibrant colors painted the sky in breathtaking hues during the sunset.",
+        "translation_phrase": "Яскраві кольори заходу сонця розфарбували небо в захоплюючих відтінках."
       },
       {
-          "word": "color",
-          "translation": "колір",
-          "phrase": "I love the vibrant color of flowers."
+        "word": "novel",
+        "translation": "роман",
+        "phrase": "Curling up with a good novel is a relaxing way to spend a rainy afternoon.",
+        "translation_phrase": "Згортаючись у клубок із хорошим романом, можна розслабитися у дощовий післяполудень."
       },
       {
-          "word": "magic",
-          "translation": "магія",
-          "phrase": "The magician performed a magic trick."
+        "word": "hope",
+        "translation": "надія",
+        "phrase": "Even in difficult times, hope can be a guiding light.",
+        "translation_phrase": "Навіть у важкі часи, надія може бути напрямною світлом."
       },
       {
-          "word": "beach",
-          "translation": "пляж",
-          "phrase": "We spent a day at the beach."
-      },
-      {
-          "word": "smile",
-          "translation": "усмішка",
-          "phrase": "A smile can brighten someone's day."
-      },
-      {
-          "word": "time",
-          "translation": "час",
-          "phrase": "Time is a valuable resource."
-      },
-      {
-          "word": "game",
-          "translation": "гра",
-          "phrase": "We played a fun game together."
-      },
-      {
-          "word": "love",
-          "translation": "любов",
-          "phrase": "Love is the most powerful emotion."
-      },
-      {
-          "word": "city",
-          "translation": "місто",
-          "phrase": "The city skyline is impressive."
+        "word": "river",
+        "translation": "ріка",
+        "phrase": "The river flowed peacefully through the lush green landscape.",
+        "translation_phrase": "Річка тече мирно серед зеленого лісу."
       }
-  ]
+    ]
 }
