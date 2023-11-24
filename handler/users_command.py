@@ -87,7 +87,7 @@ async def tests_phrase(call_back: types.CallbackQuery, state: FSMContext):
     translation = random_phrase["translation_phrase"]
     await state.set_state(FSMTest.translation)
     await state.update_data(translation=phrase)
-    await call_back.message.answer("📜Тестуваня буде в виді \n вам буде відправлятися текст він\n а ви його маєте перевести📜")
+    await call_back.message.answer("📜Тестуваня буде в виді \n вам буде відправлятися текст \n а ви його маєте перевести📜")
     await call_back.message.answer(translation)
 
 
@@ -121,7 +121,6 @@ async def transt_random(msg: types.Message, state: FSMContext):
         await msg.answer("❌Ви відповіли не правильно❌")
         await msg.answer(f"Правильна відповідь {rty} 📚")
         await state.clear()
-
 
 
 @dp.message(Command("learn"))
