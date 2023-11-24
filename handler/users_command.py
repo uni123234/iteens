@@ -155,7 +155,7 @@ async def randoms_word(call_back: types.CallbackQuery ):
 @dp.message(Command("howdoisay"))
 async def translaters(msg: types.Message, state: FSMContext) -> None:
     await state.set_state(FSMTranslate.text)
-    await msg.answer("Введіть текст, який хочете переслакти англійською📲 ")
+    await msg.answer("Введіть текст, який хочете переслакти україньською📲 ")
 
 
 @dp.message(FSMTranslate.text)
