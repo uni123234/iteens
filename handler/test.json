@@ -1,0 +1,475 @@
+{
+  
+  "a1": [
+    {
+      "question": "What is the capital of France?",
+      "options": ["Paris", "London", "Berlin", "Madrid", "Rome", "Tokyo", "New York"],
+      "correct_answer": "Paris"
+    },
+    {
+      "question": "Translate 'hello' into English.",
+      "options": ["Bonjour", "Hola", "Ciao", "Hello", "Hallo", "Privet", "Konnichiwa"],
+      "correct_answer": "Hello"
+    },
+    {
+      "question": "Which of the following is a fruit?",
+      "options": ["Carrot", "Tomato", "Banana", "Cucumber", "Broccoli", "Potato", "Onion"],
+      "correct_answer": "Banana"
+    },
+    {
+      "question": "How many continents are there in the world?",
+      "options": ["5", "6", "7", "8", "9", "10", "4"],
+      "correct_answer": "7"
+    },
+    {
+      "question": "What is the currency of Japan?",
+      "options": ["Dollar", "Euro", "Yen", "Pound", "Won", "Rupee", "Dinar"],
+      "correct_answer": "Yen"
+    },
+    {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "options": ["Charles Dickens", "Jane Austen", "William Shakespeare", "Mark Twain", "Leo Tolstoy", "Homer", "F. Scott Fitzgerald"],
+      "correct_answer": "William Shakespeare"
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Southern Ocean", "Arctic Ocean", "Pacific Ocean", "Mediterranean Sea", "Caribbean Sea"],
+      "correct_answer": "Pacific Ocean"
+    },
+    {
+      "question": "Which planet is known as the 'Red Planet'?",
+      "options": ["Venus", "Jupiter", "Mars", "Saturn", "Uranus", "Neptune", "Mercury"],
+      "correct_answer": "Mars"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": ["Pablo Picasso", "Vincent van Gogh", "Claude Monet", "Leonardo da Vinci", "Michelangelo", "Rembrandt", "Georgia O'Keeffe"],
+      "correct_answer": "Leonardo da Vinci"
+    },
+    {
+      "question": "In which year did the Titanic sink?",
+      "options": ["1905", "1912", "1920", "1931", "1945", "1953", "1967"],
+      "correct_answer": "1912"
+    },
+    {
+      "question": "What is the largest mammal in the world?",
+      "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus", "Gorilla", "Lion", "Polar Bear"],
+      "correct_answer": "Blue Whale"
+    },
+    {
+      "question": "Who is known as the 'Father of Computers'?",
+      "options": ["Steve Jobs", "Bill Gates", "Ada Lovelace", "Charles Babbage", "Alan Turing", "Grace Hopper", "Tim Berners-Lee"],
+      "correct_answer": "Charles Babbage"
+    },
+    {
+      "question": "What is the capital of Australia?",
+      "options": ["Sydney", "Melbourne", "Canberra", "Brisbane", "Perth", "Adelaide", "Hobart"],
+      "correct_answer": "Canberra"
+    },
+    {
+      "question": "Which mountain is the tallest in the world?",
+      "options": ["Mount Kilimanjaro", "Mount Everest", "Mount McKinley", "Mount Fuji", "Mount Elbrus", "Aconcagua", "Denali"],
+      "correct_answer": "Mount Everest"
+    },
+    {
+      "question": "What is the largest bird in the world?",
+      "options": ["Eagle", "Ostrich", "Penguin", "Hummingbird", "Albatross", "Pelican", "Swan"],
+      "correct_answer": "Ostrich"
+    },
+    {
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "options": ["J.K. Rowling", "Ernest Hemingway", "Harper Lee", "George Orwell", "F. Scott Fitzgerald", "J.R.R. Tolkien", "Jane Austen"],
+      "correct_answer": "Harper Lee"
+    },
+    {
+      "question": "What is the speed of light?",
+      "options": ["300,000 km/s", "500,000 km/s", "700,000 km/s", "900,000 km/s", "1,000,000 km/s", "1,200,000 km/s", "1,500,000 km/s"],
+      "correct_answer": "300,000 km/s"
+    },
+    {
+      "question": "Who discovered penicillin?",
+      "options": ["Marie Curie", "Alexander Fleming", "Louis Pasteur", "Joseph Lister", "Robert Koch", "Paul Dirac", "Linus Pauling"],
+      "correct_answer": "Alexander Fleming"
+    },
+    {
+      "question": "Which country is known as the 'Land of the Rising Sun'?",
+      "options": ["China", "India", "Japan", "South Korea", "Vietnam", "Thailand", "Indonesia"],
+      "correct_answer": "Japan"
+    }
+     ],
+    "a2": [
+        {
+            "question": "What is the capital of France?",
+            "options": ["Berlin", "Paris", "London", "Madrid", "Rome", "Tokyo", "New York"],
+            "correct_answer": "Paris"
+        },
+        {
+            "question": "Translate 'table' into German.",
+            "options": ["Mesa", "Tavolo", "Tisch", "Chaise", "Cama", "Stuhl", "Bureau"],
+            "correct_answer": "Tisch"
+        },
+        {
+            "question": "Which of the following is a fruit?",
+            "options": ["Carrot", "Tomato", "Banana", "Cucumber", "Broccoli", "Potato", "Onion"],
+            "correct_answer": "Banana"
+        },
+        {
+            "question": "How many continents are there on Earth?",
+            "options": ["5", "6", "7", "8", "9", "10", "4"],
+            "correct_answer": "7"
+        },
+        {
+            "question": "What is the currency of Japan?",
+            "options": ["Dollar", "Euro", "Yen", "Pound", "Yuan", "Rupee", "Dinar"],
+            "correct_answer": "Yen"
+        },
+        {
+            "question": "Who wrote 'Romeo and Juliet'?",
+            "options": ["Charles Dickens", "Jane Austen", "William Shakespeare", "Mark Twain", "Leo Tolstoy", "Homer", "F. Scott Fitzgerald"],
+            "correct_answer": "William Shakespeare"
+        },
+        {
+            "question": "What is the largest ocean on Earth?",
+            "options": ["Atlantic Ocean", "Indian Ocean", "Southern Ocean", "Arctic Ocean", "Pacific Ocean", "Mediterranean Sea", "Caribbean Sea"],
+            "correct_answer": "Pacific Ocean"
+        },
+        {
+            "question": "Which planet is known as the 'Red Planet'?",
+            "options": ["Venus", "Jupiter", "Mars", "Saturn", "Uranus", "Neptune", "Mercury"],
+            "correct_answer": "Mars"
+        },
+        {
+            "question": "Who painted the 'Mona Lisa'?",
+            "options": ["Pablo Picasso", "Vincent van Gogh", "Claude Monet", "Leonardo da Vinci", "Michelangelo", "Rembrandt", "Georgia O'Keeffe"],
+            "correct_answer": "Leonardo da Vinci"
+        },
+        {
+            "question": "In which year did Christopher Columbus discover America?",
+            "options": ["1492", "1500", "1525", "1550", "1600", "1625", "1650"],
+            "correct_answer": "1492"
+        },
+        {
+            "question": "What is the top speed of a cheetah?",
+            "options": ["60 km/h", "80 km/h", "100 km/h", "120 km/h", "140 km/h", "160 km/h", "180 km/h"],
+            "correct_answer": "120 km/h"
+        },
+        {
+            "question": "Who is known as the 'Father of Computers'?",
+            "options": ["Alan Turing", "Charles Babbage", "Bill Gates", "Steve Jobs", "Ada Lovelace", "Grace Hopper", "John von Neumann"],
+            "correct_answer": "Charles Babbage"
+        }
+    ],
+    "b1": [
+        {
+            "question": "What is the capital of Australia?",
+            "options": ["Sydney", "Melbourne", "Canberra", "Brisbane", "Perth", "Adelaide", "Hobart"],
+            "correct_answer": "Canberra"
+        },
+        {
+            "question": "Translate 'wind' into Spanish.",
+            "options": ["Viento", "Agua", "Fuego", "Tierra", "Sol", "Aire", "Rayo"],
+            "correct_answer": "Viento"
+        },
+        {
+            "question": "Which of the following is a nut?",
+            "options": ["Apple", "Pear", "Almond", "Grapes", "Kiwi", "Peach", "Plum"],
+            "correct_answer": "Almond"
+        },
+        {
+            "question": "How many bones are there in the adult human body?",
+            "options": ["106", "206", "306", "406", "506", "606", "706"],
+            "correct_answer": "206"
+        },
+        {
+            "question": "What is the currency of Brazil?",
+            "options": ["Dollar", "Euro", "Yen", "Pound", "Real", "Rupee", "Dinar"],
+            "correct_answer": "Real"
+        },
+        {
+            "question": "Who wrote 'To Kill a Mockingbird'?",
+            "options": ["Charles Dickens", "Jane Austen", "F. Scott Fitzgerald", "Harper Lee", "Mark Twain", "J.K. Rowling", "William Shakespeare"],
+            "correct_answer": "Harper Lee"
+        },
+        {
+            "question": "What is the deepest point in the world's oceans?",
+            "options": ["Atlantic Ocean", "Indian Ocean", "Southern Ocean", "Mariana Trench", "Pacific Ocean", "Arctic Ocean", "Caribbean Sea"],
+            "correct_answer": "Mariana Trench"
+        },
+        {
+            "question": "Which planet is known as the 'Green Planet'?",
+            "options": ["Venus", "Jupiter", "Mars", "Saturn", "Uranus", "Earth", "Mercury"],
+            "correct_answer": "Earth"
+        },
+        {
+            "question": "Who painted the 'Guernica'?",
+            "options": ["Pablo Picasso", "Vincent van Gogh", "Claude Monet", "Leonardo da Vinci", "Michelangelo", "Rembrandt", "Georgia O'Keeffe"],
+            "correct_answer": "Pablo Picasso"
+        },
+        {
+            "question": "In which year did the Titanic sink?",
+            "options": ["1905", "1912", "1920", "1931", "1940", "1952", "1963"],
+            "correct_answer": "1912"
+        },
+        {
+            "question": "What is the average lifespan of a cat?",
+            "options": ["5-10 years", "10-15 years", "15-20 years", "20-25 years", "25-30 years", "30-35 years", "35-40 years"],
+            "correct_answer": "15-20 years"
+        },
+        {
+            "question": "Who is known as the 'Father of Evolution'?",
+            "options": ["Charles Darwin", "Gregor Mendel", "Alfred Russel Wallace", "Jean-Baptiste Lamarck", "Thomas Huxley", "Richard Dawkins", "Stephen Jay Gould"],
+            "correct_answer": "Charles Darwin"
+        },
+        {
+            "question": "What is the capital of South Korea?",
+            "options": ["Seoul", "Busan", "Incheon", "Daegu", "Daejeon", "Gwangju", "Ulsan"],
+            "correct_answer": "Seoul"
+        },
+        {
+            "question": "Translate 'fire' into French.",
+            "options": ["Feu", "Eau", "Terre", "Air", "Soleil", "Glace", "Foudre"],
+            "correct_answer": "Feu"
+        },
+        {
+            "question": "Which of the following is a tropical fruit?",
+            "options": ["Apple", "Banana", "Strawberry", "Grapes", "Kiwi", "Peach", "Pineapple"],
+            "correct_answer": "Pineapple"
+        },
+        {
+            "question": "How many elements are there in the periodic table?",
+            "options": ["92", "108", "118", "128", "138", "148", "158"],
+            "correct_answer": "118"
+        },
+        {
+            "question": "What is the currency of China?",
+            "options": ["Dollar", "Euro", "Yen, Yuan", "Pound", "Won", "Dinar"],
+            "correct_answer": "Yuan"
+        },
+        {
+            "question": "Who wrote 'The Odyssey'?",
+            "options": ["Homer", "Virgil", "Aesop", "Sophocles", "Euripides", "Herodotus", "Thucydides"],
+            "correct_answer": "Homer"
+        },
+        {
+            "question": "What is the largest desert in the world?",
+            "options": ["Sahara Desert", "Arabian Desert", "Gobi Desert", "Karakum Desert", "Patagonian Desert", "Great Victoria Desert", "Antarctica"],
+            "correct_answer": "Antarctica"
+        },
+        {
+            "question": "Which planet is known as the 'Ice Giant'?",
+            "options": ["Venus", "Jupiter", "Mars", "Uranus", "Saturn", "Neptune", "Mercury"],
+            "correct_answer": "Uranus"
+        },
+        {
+            "question": "Who painted the 'The Persistence of Memory'?",
+            "options": ["Pablo Picasso", "Vincent van Gogh", "Salvador Dalí", "Leonardo da Vinci", "Michelangelo", "Rembrandt", "Claude Monet"],
+            "correct_answer": "Salvador Dalí"
+        },
+        {
+            "question": "In which year did Nelson Mandela become the President of South Africa?",
+            "options": ["1985", "1990", "1994", "1998", "2002", "2006", "2010"],
+            "correct_answer": "1994"
+        },
+        {
+            "question": "What is the wingspan of the albatross?",
+            "options": ["1 meter", "2 meters", "3 meters", "4 meters", "5 meters", "6 meters", "7 meters"],
+            "correct_answer": "3 meters"
+        },
+        {
+            "question": "Who is known as the 'King of Rock and Roll'?",
+            "options": ["Elvis Presley", "Chuck Berry", "Little Richard", "Buddy Holly", "Jerry Lee Lewis", "Fats Domino", "Johnny Cash"],
+            "correct_answer": "Elvis Presley"
+        }
+    ],
+    "b2": [
+      {
+          "question": "What is the capital of Brazil?",
+          "options": ["Rio de Janeiro", "Brasília", "São Paulo", "Salvador", "Manaus", "Fortaleza", "Curitiba"],
+          "correct_answer": "Brasília"
+      },
+      {
+          "question": "Translate 'water' into French.",
+          "options": ["Eau", "Feu", "Terre", "Air", "Soleil", "Glace", "Foudre"],
+          "correct_answer": "Eau"
+      },
+      {
+          "question": "Which of the following is a citrus fruit?",
+          "options": ["Apple", "Banana", "Orange", "Grapes", "Kiwi", "Peach", "Pineapple"],
+          "correct_answer": "Orange"
+      },
+      {
+          "question": "How many bones are there in the adult human body?",
+          "options": ["106", "206", "306", "406", "506", "606", "706"],
+          "correct_answer": "206"
+      },
+      {
+          "question": "What is the currency of Canada?",
+          "options": ["Dollar", "Euro", "Yen", "Pound", "Canadian Dollar", "Rupee", "Dinar"],
+          "correct_answer": "Canadian Dollar"
+      },
+      {
+          "question": "Who wrote '1984'?",
+          "options": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "Margaret Atwood", "Philip K. Dick", "Isaac Asimov", "Arthur C. Clarke"],
+          "correct_answer": "George Orwell"
+      },
+      {
+          "question": "What is the largest desert in Africa?",
+          "options": ["Sahara Desert", "Kalahari Desert", "Namib Desert", "Danakil Desert", "Chihuahuan Desert", "Great Victoria Desert", "Libyan Desert"],
+          "correct_answer": "Sahara Desert"
+      },
+      {
+          "question": "Which planet is known as the 'Blue Planet'?",
+          "options": ["Venus", "Jupiter", "Mars", "Saturn", "Uranus", "Earth", "Neptune"],
+          "correct_answer": "Earth"
+      },
+      {
+          "question": "Who painted the 'Girl with a Pearl Earring'?",
+          "options": ["Pablo Picasso", "Vincent van Gogh", "Johannes Vermeer", "Leonardo da Vinci", "Rembrandt", "Edvard Munch", "Claude Monet"],
+          "correct_answer": "Johannes Vermeer"
+      },
+      {
+          "question": "In which year did the Berlin Wall fall?",
+          "options": ["1985", "1989", "1995", "2000", "2005", "2010", "2015"],
+          "correct_answer": "1989"
+      },
+      {
+          "question": "What is the top speed of a sailfish?",
+          "options": ["36 km/h", "68 km/h", "97 km/h", "112 km/h", "128 km/h", "145 km/h", "162 km/h"],
+          "correct_answer": "68 km/h"
+      },
+      {
+          "question": "Who is known as the 'Queen of Pop'?",
+          "options": ["Madonna", "Beyoncé", "Lady Gaga", "Whitney Houston", "Rihanna", "Katy Perry", "Britney Spears"],
+          "correct_answer": "Madonna"
+      },
+      {
+          "question": "What is the capital of China?",
+          "options": ["Beijing", "Shanghai", "Guangzhou", "Shenzhen", "Tianjin", "Chongqing", "Hangzhou"],
+          "correct_answer": "Beijing"
+      },
+      {
+          "question": "Translate 'sun' into Spanish.",
+          "options": ["Sol", "Luna", "Estrella", "Cielo", "Tierra", "Mar", "Nube"],
+          "correct_answer": "Sol"
+      },
+      {
+          "question": "Which of the following is a noble gas?",
+          "options": ["Oxygen", "Helium", "Nitrogen", "Hydrogen", "Carbon dioxide", "Methane", "Argon"],
+          "correct_answer": "Argon"
+      },
+      {
+          "question": "How many teeth does an adult human have?",
+          "options": ["28", "30", "32", "34", "36", "38", "40"],
+          "correct_answer": "32"
+      },
+      {
+          "question": "What is the currency of Japan?",
+          "options": ["Dollar", "Euro", "Yen", "Pound", "Won", "Rupee", "Dinar"],
+          "correct_answer": "Yen"
+      },
+      {
+          "question": "Who wrote 'The Great Gatsby'?",
+          "options": ["F. Scott Fitzgerald", "Ernest Hemingway", "J.D. Salinger", "Harper Lee", "John Steinbeck", "Virginia Woolf", "George Orwell"],
+          "correct_answer": "F. Scott Fitzgerald"
+      },
+      {
+          "question": "What is the largest hot desert in the world?",
+          "options": ["Sahara Desert", "Kalahari Desert", "Arabian Desert", "Gobi Desert", "Sonoran Desert", "Thar Desert", "Atacama Desert"],
+          "correct_answer": "Sahara Desert"
+      }
+  ],
+  "c1": [
+      {
+          "question": "What is the capital of Argentina?",
+          "options": ["Buenos Aires", "Cordoba", "Rosario", "Mendoza", "Tucuman", "La Plata", "Salta"],
+          "correct_answer": "Buenos Aires"
+      },
+      {
+          "question": "Translate 'technology' into Mandarin.",
+          "options": ["技术", "科技", "技巧", "工艺", "创新", "发明", "电子"],
+          "correct_answer": "科技"
+      },
+      {
+          "question": "Which of the following is a legume?",
+          "options": ["Carrot", "Tomato", "Lentil", "Cucumber", "Broccoli", "Potato", "Onion"],
+          "correct_answer": "Lentil"
+      },
+      {
+          "question": "How many bones are there in the adult human body?",
+          "options": ["106", "206", "306", "406", "506", "606", "706"],
+          "correct_answer": "206"
+      },
+      {
+          "question": "What is the currency of Saudi Arabia?",
+          "options": ["Dollar", "Euro", "Yen, Riyal", "Pound", "Won", "Dinar"],
+          "correct_answer": "Riyal"
+      },
+      {
+          "question": "Who wrote 'One Hundred Years of Solitude'?",
+          "options": ["Gabriel Garcia Marquez", "Isabel Allende", "Mario Vargas Llosa", "Julio Cortazar", "Pablo Neruda", "Jorge Luis Borges", "Carlos Fuentes"],
+          "correct_answer": "Gabriel Garcia Marquez"
+      },
+      {
+          "question": "What is the largest rainforest in the world?",
+          "options": ["Amazon Rainforest", "Congo Rainforest", "Daintree Rainforest", "Valdivian Rainforest", "Tongass National Forest", "Borneo Rainforest", "Sumatra Rainforest"],
+          "correct_answer": "Amazon Rainforest"
+      },
+      {
+          "question": "Which planet is known as the 'Eighth Continent'?",
+          "options": ["Venus", "Jupiter", "Mars", "Saturn", "Uranus", "Earth", "Neptune"],
+          "correct_answer": "Earth"
+      },
+      {
+          "question": "Who painted the 'The Starry Night'?",
+          "options": ["Pablo Picasso", "Vincent van Gogh", "Claude Monet", "Leonardo da Vinci", "Michelangelo", "Rembrandt", "Georgia O'Keeffe"],
+          "correct_answer": "Vincent van Gogh"
+      },
+      {
+          "question": "In which year did the World Wide Web become publicly accessible?",
+          "options": ["1985", "1990", "1995", "2000", "2005", "2010", "2015"],
+          "correct_answer": "1990"
+      },
+      {
+          "question": "What is the average speed of a peregrine falcon during its hunting stoop?",
+          "options": ["100 km/h", "150 km/h", "200 km/h", "250 km/h", "300 km/h", "350 km/h", "400 km/h"],
+          "correct_answer": "300 km/h"
+      },
+      {
+          "question": "Who is known as the 'Father of Psychology'?",
+          "options": ["Sigmund Freud", "B.F. Skinner", "John B. Watson", "Carl Jung", "Ivan Pavlov", "Abraham Maslow", "Erik Erikson"],
+          "correct_answer": "Sigmund Freud"
+      },
+      {
+          "question": "What is the capital of Iran?",
+          "options": ["Tehran", "Isfahan", "Shiraz", "Mashhad", "Tabriz", "Yazd", "Ahvaz"],
+          "correct_answer": "Tehran"
+      },
+      {
+          "question": "Translate 'book' into Spanish.",
+          "options": ["Libro", "Casa", "Comida", "Agua", "Amor", "Trabajo", "Tiempo"],
+          "correct_answer": "Libro"
+      },
+      {
+          "question": "Which of the following is a gas?",
+          "options": ["Iron", "Gold", "Oxygen", "Silver", "Copper", "Diamond", "Lead"],
+          "correct_answer": "Oxygen"
+      },
+      {
+          "question": "How many chromosomes does a human have?",
+          "options": ["44", "46", "48", "50", "52", "54", "56"],
+          "correct_answer": "46"
+      },
+      {
+          "question": "What is the currency of Switzerland?",
+          "options": ["Dollar", "Euro", "Yen", "Pound", "Swiss Franc", "Rupee", "Dinar"],
+          "correct_answer": "Swiss Franc"
+      },
+      {
+          "question": "Who wrote 'The Iliad'?",
+          "options": ["Homer", "Virgil", "Aesop", "Sophocles", "Euripides", "Herodotus", "Thucydides"],
+          "correct_answer": "Homer"
+      }
+  ]
+}
+
+  

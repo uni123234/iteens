@@ -1,7 +1,6 @@
 import random, json
 
 from aiogram import types
-from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 
 keyboard = [ 
