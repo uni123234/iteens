@@ -42,9 +42,9 @@ class DbUsers(DefaultInterface):
             SELECT progress
             FROM users
             WHERE telegram_id = ?
-        """, (telegram_id, ))
+        """, (telegram_id, )) 
 
-        return self.cursor.fetchone()
+        return self.cursor.fetchone() [0]
     
     def check(self, telegram_id: int):
         self.connect(load.bot_db)
