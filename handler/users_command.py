@@ -8,7 +8,7 @@ from googletrans import Translator
 from load import dp , bot, db_users
 from db_learn.db_state import FSMRegister, FSMTranslate, FSMTest
 from .kb_learns.keyboards import reply_markup
-from .kb_learns.keyboard_test import reply_markups
+from .kb_learns.keyboard_test import reply_markups, backs
 from db_learn.db import DbUsers
 from .kb_learns.keyboards import get_random_word
 
@@ -62,6 +62,12 @@ async def start_lng_lvl(msg: types.Message, state: FSMContext,):
     await state.clear()
 
 
+@dp.callback_query(F.data=="back_to_tests")
+async def back(call_back: types.CallbackQuery):
+        text="📚Виберіть що тест📚"
+        await call_back.message.edit_text(text, reply_markup=reply_markups)
+    
+
 @dp.message(Command("test"))
 async def tests(msg: types.Message):
     if db_users.check(msg.from_user.id) is None:
@@ -76,9 +82,9 @@ async def tests_one_word(call_back: types.CallbackQuery, state: FSMContext):
     random_word = random.choice(words_data["words"])
     word = random_word["word"]
     translation = random_word["translation"]
+    await call_back.message.edit_text(text="📜Тестуваня буде в виді \nбот вам буде відправляти слова на укр\n а ви маєте відправити на Англ📜")
     await state.set_state(FSMTest.translation)
     await state.update_data(translation=word)
-    await call_back.message.answer("📜Тестуваня буде в виді \nбот вам буде відправляти слова на укр\n а ви маєте відправити на Англ📜")
     await call_back.message.answer(translation)
 
 
@@ -87,9 +93,9 @@ async def tests_phrase(call_back: types.CallbackQuery, state: FSMContext):
     random_phrase = random.choice(words_data["words"])
     phrase = random_phrase["phrase"]
     translation = random_phrase["translation_phrase"]
+    await call_back.message.edit_text(text="📜Тестуваня буде в виді \n вам буде відправлятися текст \n а ви його маєте перевести📜")
     await state.set_state(FSMTest.translation)
     await state.update_data(translation=phrase)
-    await call_back.message.answer("📜Тестуваня буде в виді \n вам буде відправлятися текст \n а ви його маєте перевести📜")
     await call_back.message.answer(translation)
     
 
@@ -98,12 +104,13 @@ async def transt_random(msg: types.Message, state: FSMContext):
     tests = await state.get_data()
     rty = tests.get('translation')
     if rty == msg.text.lower():
-        await msg.answer('у вас +1 бал до прогресу🎓 все правильно🎓')
+        await msg.answer('у вас +1 бал до прогресу🎓 все правильно🎓', reply_markup=backs)
         say = db_users.get_progress(msg.from_user.id)
         db_users.update_user(msg.from_user.id, say + 1)
     else:
         await msg.answer("❌Ви відповіли не правильно❌")
-        await msg.answer(f"Правильна відповідь {rty} 📚")
+        await msg.answer(f"Правильна відповідь {rty} 📚", reply_markup=backs)
+
     await state.clear()
 
 
@@ -112,12 +119,12 @@ async def transt_random(msg: types.Message, state: FSMContext):
     tests = await state.get_data()
     rty = tests.get('translation_phrase')
     if rty == msg.text.lower():
-        await msg.answer('у вас +1 бал до прогресу🎓 все правильно🎓')
+        await msg.answer('у вас +1 бал до прогресу🎓 все правильно🎓', reply_markup=backs)
         say = db_users.get_progress(msg.from_user.id)
         db_users.update_user(msg.from_user.id, say + 1)
     else:
         await msg.answer("❌Ви відповіли не правильно❌")
-        await msg.answer(f"Правильна відповідь {rty} 📚")
+        await msg.answer(f"Правильна відповідь {rty} 📚", reply_markup=backs)
     await state.clear()
 
 

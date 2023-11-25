@@ -3,11 +3,6 @@ import random, json
 from aiogram import types
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
-builder = InlineKeyboardBuilder()
-
-for index in range(1, 3):
-    builder.button(text=f"Set {index}", callback_data=f"set:{index}")
-
 
 keyboard = [ 
     [
