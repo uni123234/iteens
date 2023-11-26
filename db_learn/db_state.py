@@ -10,6 +10,13 @@ class FSMRegister(StatesGroup):
 class FSMTranslate(StatesGroup):
     text = State()
 
+
 class FSMTest(StatesGroup):
     translation = State()
     phrase = State()
+
+
+class FSMTestABC(StatesGroup):
+    question = State()
+    tu = State()
+

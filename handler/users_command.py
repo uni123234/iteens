@@ -7,9 +7,9 @@ from googletrans import Translator
 from aiogram.types.inline_query import InlineQuery
 
 from load import dp , bot, db_users
-from db_learn.db_state import FSMRegister, FSMTranslate, FSMTest
+from db_learn.db_state import FSMRegister, FSMTranslate, FSMTest, FSMTestABC
 from .kb_learns.keyboards import reply_markup
-from .kb_learns.keyboard_test import reply_markups, backs, keyboard_t
+from .kb_learns.keyboard_test import reply_markups, backs, keyboard_t, reply_markupe, reply_markup_lvl, keyboard_test_a
 from db_learn.db import DbUsers
 from .kb_learns.keyboards import get_random_word
 
@@ -17,6 +17,11 @@ file_path = 'handler/words.json'
 
 with open(file_path, 'r', encoding='utf-8') as file:
     words_data = json.load(file)
+
+file_test = 'handler/test.json'
+
+with open(file_test, 'r', encoding='utf-8') as file:
+    test_data = json.load(file)
 
 
 @dp.message(Command("start"))
@@ -59,7 +64,53 @@ async def start_lng_lvl(msg: types.Message, state: FSMContext,):
     )
 
     await msg.answer("📜Ви успішно зареєструвалися!📜")
+    await msg.answer("📜Хочете пройти тест?📜", reply_markup=reply_markupe)
     await state.clear()
+
+
+@dp.callback_query(F.data=="yes")
+async def yess(call_back: types.CallbackQuery):
+    await call_back.message.edit_text("Вибіріть рівень тест", reply_markup=reply_markup_lvl)
+
+
+@dp.callback_query(F.data=="no")
+async def yess(call_back: types.CallbackQuery):
+    await call_back.message.delete()
+
+
+@dp.callback_query(F.data=="a1")
+async def a1_lvl(call_back: types.CallbackQuery, state: FSMContext):
+    random_quest = random.choice(test_data['a1'])
+    random_op = random_quest['options']
+    random_qu = random_quest['question']
+    correct = random_quest['correct_answer']
+    kup = [*random_op]
+    random.shuffle(kup) 
+
+    await state.set_state(FSMTest.translation)
+    await state.update_data(translation=correct)
+    await state.set_state(FSMTestABC.tu)
+    await state.update_data(tu='a1')
+    await state.set_state(FSMTestABC.question)
+    
+    await call_back.message.answer(random_qu,reply_markup=keyboard_test_a(*kup))
+    await state.clear()
+
+
+# @dp.callback_query(F.data=="a2")
+# async def a2_lvl(call_back: types.CallbackQuery, state: FSMContext):
+
+
+# @dp.callback_query(F.data=="b1")
+# async def b1_lvl(call_back: types.CallbackQuery, state: FSMContext):
+
+
+# @dp.callback_query(F.data=="b2")
+# async def b2_lvl(call_back: types.CallbackQuery, state: FSMContext):
+
+
+# @dp.callback_query(F.data=="c1")
+# async def c1_lvl(call_back: types.CallbackQuery, state: FSMContext):
 
 
 @dp.callback_query(F.data=="back_to_tests")
@@ -178,7 +229,7 @@ async def info_command(msg: types.Message):
 async def test_answer(call_back: types.CallbackQuery, state: FSMContext):
     tests = await state.get_data()
     rty = tests.get('translation')
-    if rty == call_back.data.lower():
+    if rty.lower() == call_back.data.lower():
         await call_back.message.edit_text('у вас +1 бал до прогресу🎓 все правильно🎓', reply_markup=backs)
         say = db_users.get_progress(call_back.from_user.id)
         db_users.update_user(call_back.from_user.id, say + 1)
