@@ -1,6 +1,6 @@
 import logging, asyncio, sys
 
-from aiogram.filters.command import Command
+from handler.users_command import init_questions
 
 from load import dp, bot, bot_db, db_users
 import handler
@@ -12,11 +12,12 @@ async def on_startup(dispatcher):
     db_users.connect(bot_db)
     db_users.create_default_tables()
     logging.info("Bot has runned")
+    init_questions()
 
 @dp.shutdown()
 async def on_shutdown(dispatcher):
     bot_db.close()
-    logging.info("Bot has stopped")
+    logging.info("Bot has stopped") 
 
 async def main():
     await dp.start_polling(bot)

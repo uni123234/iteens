@@ -17,6 +17,7 @@ class DbUsers(DefaultInterface):
         """)
         return self.conn.commit()
 
+
     def insert_user(self,lng_lvl: str, username: str, first_name: str = None, last_name: str = None, telegram_id: int = None, progress: int = 0):
         self.connect(load.bot_db)
         self.cursor.execute("""
@@ -26,6 +27,7 @@ class DbUsers(DefaultInterface):
 
         return self.conn.commit()
     
+
     def update_user(self, telegram_id: int, progress: int):
         self.connect(load.bot_db)
         self.cursor.execute("""
@@ -35,6 +37,7 @@ class DbUsers(DefaultInterface):
         """, (progress, telegram_id))
 
         return self.conn.commit()
+
 
     def get_progress(self, telegram_id: int):
         self.connect(load.bot_db)
@@ -46,10 +49,22 @@ class DbUsers(DefaultInterface):
 
         return self.cursor.fetchone() [0]
     
+
     def check(self, telegram_id: int):
         self.connect(load.bot_db)
         self.cursor.execute('SELECT telegram_id FROM users WHERE telegram_id= ?', (telegram_id,))
 
         return self.cursor.fetchone()
+    
+
+    def update_lvl(self, telegram_id: int, lng_lvl: str):
+        self.connect(load.bot_db)
+        self.cursor.execute("""
+            UPDATE users 
+            SET lng_lvl = ?
+            WHERE telegram_id = ?
+        """, (lng_lvl, telegram_id))
+
+        return self.conn.commit()
     
 
