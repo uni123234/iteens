@@ -1,4 +1,4 @@
-import json,random
+import json, random
 
 from aiogram import types, F
 from aiogram.filters import Command
@@ -166,16 +166,6 @@ async def my_test(call_back: types.CallbackQuery, state: FSMContext):
         await call_back.message.answer("Зареєструйся!")
 
 
-@dp.callback_query(F.data=="yes")
-async def yess(call_back: types.CallbackQuery):
-    await call_back.message.edit_text("Вибіріть рівень тест", reply_markup=reply_markup_lvl)
-
-
-@dp.callback_query(F.data=="no")
-async def yess(call_back: types.CallbackQuery):
-    await call_back.message.delete()
-
-
 @dp.callback_query(F.data=="back_to_tests")
 async def back(call_back: types.CallbackQuery):
         text="📚Виберіть що тест📚"
@@ -245,7 +235,7 @@ async def progress_learn(msg: types.Message):
         await msg.answer("Зарегіструйтеся будьласка через команду /start")
     else:
         say = db_users.get_progress(msg.from_user.id)
-        await msg.answer("Ваш рівень англійського в балах📚 " + str(say) + " непогано)")
+        await msg.answer("Ваш рівень англійського в балах📚" + str(say) + "/100 \nА рівень англійсьокого " + db_users.get_lng_lvl_by_telegram_id(msg.from_user.id) + " непогано)")
 
 
 @dp.callback_query(F.data=="learn_new_word")
@@ -265,15 +255,6 @@ async def translaters(msg: types.Message, state: FSMContext) -> None:
         await msg.answer("Введіть текст, який хочете переслакти україньською📲 ")
         
 
-@dp.message(FSMTranslate.text)
-async def trans(msg: types.Message, state:FSMContext):
-    text = msg.text
-    translator = Translator(service_urls=['translate.googleapis.com'])
-    tr = translator.translate(text, dest='en')
-    await msg.answer(tr.text)
-    await state.clear()
-
-
 @dp.message(Command("info"))
 async def info_command(msg: types.Message):
     if db_users.check(msg.from_user.id) is None:
@@ -286,4 +267,23 @@ async def info_command(msg: types.Message):
     - Давати завдання🌠
     - Допомогти тобі провести час із користю🛠 """
         await msg.answer(text)
+
+
+@dp.callback_query(F.data=="yes")
+async def yess(call_back: types.CallbackQuery):
+    await call_back.message.edit_text("Вибіріть рівень тест", reply_markup=reply_markup_lvl)
+
+
+@dp.callback_query(F.data=="no")
+async def yess(call_back: types.CallbackQuery):
+    await call_back.message.delete()
+
+
+@dp.message(FSMTranslate.text)
+async def trans(msg: types.Message, state:FSMContext):
+    text = msg.text
+    translator = Translator(service_urls=['translate.googleapis.com'])
+    tr = translator.translate(text, dest='en')
+    await msg.answer(tr.text)
+    await state.clear()
     

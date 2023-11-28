@@ -12,6 +12,7 @@ class BotDb:
         if hasattr(self, 'conn'):
             self.conn.close
 
+
 class DefaultInterface:
     def connect(self, db_base: BotDb):
         self.conn = db_base.conn

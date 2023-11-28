@@ -1,5 +1,6 @@
 from aiogram import types
 
+
 keyboard_test = [
     
        [types.InlineKeyboardButton(text="📜Тест по одному слову📜", callback_data="tests_one_word")],
@@ -8,12 +9,14 @@ keyboard_test = [
 ]
 reply_markups = types.InlineKeyboardMarkup(inline_keyboard=keyboard_test)
 
+
 keyboard_back = [
     [
         types.InlineKeyboardButton(text="Назад до тестів", callback_data='back_to_tests')
     ]
 ]
 backs = types.InlineKeyboardMarkup(inline_keyboard=keyboard_back)
+
 
 def keyboard_t(word1,word2,word3,word4):
     keyboard_l = [ 

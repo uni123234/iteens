@@ -68,3 +68,13 @@ class DbUsers(DefaultInterface):
         return self.conn.commit()
     
 
+    def get_lng_lvl_by_telegram_id(self, telegram_id: int):
+        self.connect(load.bot_db)
+        self.cursor.execute("SELECT lng_lvl FROM users WHERE telegram_id=?", (telegram_id,))
+        result = self.cursor.fetchone()
+        if result:
+            lng_lvl = result[0]
+            return lng_lvl
+        else:
+            return None
+
