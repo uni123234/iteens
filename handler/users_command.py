@@ -263,7 +263,7 @@ async def translaters(msg: types.Message, state: FSMContext) -> None:
     else:
         await state.set_state(FSMTranslate.text)
         await msg.answer("Введіть текст, який хочете переслакти україньською📲 ")
-
+        
 
 @dp.message(FSMTranslate.text)
 async def trans(msg: types.Message, state:FSMContext):
@@ -287,6 +287,3 @@ async def info_command(msg: types.Message):
     - Допомогти тобі провести час із користю🛠 """
         await msg.answer(text)
     
-
-
-

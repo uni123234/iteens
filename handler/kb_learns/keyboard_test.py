@@ -5,7 +5,6 @@ keyboard_test = [
        [types.InlineKeyboardButton(text="📜Тест по одному слову📜", callback_data="tests_one_word")],
        [types.InlineKeyboardButton(text="📜Тест на часи📜", callback_data="tests_one_phrase")],
        [types.InlineKeyboardButton(text="📜Повномаштабний тест на рівні📜", callback_data="yes")],
-       [types.InlineKeyboardButton(text="📜Тест на знання📜", callback_data="None")],
 ]
 reply_markups = types.InlineKeyboardMarkup(inline_keyboard=keyboard_test)
 
