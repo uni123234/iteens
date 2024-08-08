@@ -2,6 +2,6 @@
 __pycache__/
 ./*.db
 ./*/*.db
-
+*venv*
 
 db_learn/users.db
