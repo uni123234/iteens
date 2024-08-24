@@ -1,7 +1,5 @@
-.env
-__pycache__/
-./*.db
-./*/*.db
+*.env*
+*pycache*
 *venv*
+*.db*
 
-db_learn/users.db

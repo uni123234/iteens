@@ -1,25 +1,38 @@
-import logging, asyncio, sys
+"""
+This module initializes the bot, sets up event handling, and manages the bot's lifecycle.
+"""
+
+import logging
+import asyncio
+import sys
 
 from handler.users_command import init_questions
-
 from load import dp, bot, bot_db, db_users
-import handler
 
 
 @dp.startup()
-async def on_startup(dispatcher):
+async def on_startup():
+    """
+    Called when the bot starts up.
+    """
     bot_db.open()
     db_users.connect(bot_db)
-    db_users.create_default_tables()
-    logging.info("Bot has runned")
+    db_users.setup()
+    logging.info("Bot has run")
     init_questions()
 
 @dp.shutdown()
-async def on_shutdown(dispatcher):
+async def on_shutdown():
+    """
+    Called when the bot shuts down.
+    """
     bot_db.close()
-    logging.info("Bot has stopped") 
+    logging.info("Bot has stopped")
 
 async def main():
+    """
+    Starts the bot's polling loop.
+    """
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
